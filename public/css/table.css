@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --color-main: #2a2a2a;
+    --color-dark: #1d2231;
+    --texto-grey: #8390a2;
+    --color-blanco: #fff;
+  }
+  
+  h2 {
+    text-align: left;
+    margin-left: 270px;
+    color: #333;
+  }
+  
+  .table-rwd {
+    font-size: 0.95em;
+    border: 1px transparent rgba(181, 213, 144, 0.5);
+    color: #666;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .table-rwd td,
+  .table-rwd th {
+    padding: 0.8em;
+    border-bottom: 1px transparent rgba(181, 213, 144, 0.5);
+  }
+  .table-rwd th {
+    background: var(--color-main);
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+  }
+  .table-rwd td {
+    text-align: center;
+  }
+  .table-rwd td:first-of-type {
+    text-align: center;
+  }
+  .table-rwd td:first-of-type:before {
+    content: "";
+  }
+  .table-rwd td:first-of-type:after {
+    content: "";
+  }
+  .table-rwd tr:hover {
+    background: rgba(181, 213, 144, 0.2);
+  }
+  .table-rwd tr td:nth-child(2n) {
+    background: rgba(181, 213, 144, 0.2);
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .table-rwd {
+    min-width: 980px;
+  }
+  
+  .table-rwd tr:nth-child(2) td:first-child {
+    box-shadow: 0 -2.7em 0 -6px var(--color-main),
+      -6px -2.7em 0 -6px var(--color-main);
+  }
+  
+  .add-button {
+      float: right;
+      margin-right: 270px;
+      position: static;
+  }
+  .pagination {
+      float: right;
+      margin-right: 260px;
+      position: static;
+      padding: 10px;
+  }
